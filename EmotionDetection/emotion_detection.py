@@ -36,7 +36,7 @@ def main():
         print("Usage: emotion_detection.py '<string>'" )
         return
     text_to_analyse = sys.argv[1]
-    emotion_detection(text_to_analyse)
+    emotion_detector(text_to_analyse)
 
 if __name__ == "__main__":
     main() 
